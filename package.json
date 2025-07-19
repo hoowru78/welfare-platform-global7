@@ -1,0 +1,42 @@
+{
+  "name": "global-senior-welfare-website",
+  "version": "1.0.0",
+  "description": "Global Senior Welfare Website - Helping seniors worldwide access welfare programs and government services",
+  "author": "Global Senior Welfare Initiative",
+  "license": "MIT",
+  "keywords": [
+    "seniors",
+    "welfare",
+    "accessibility",
+    "government",
+    "next.js"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.0.0",
+    "prettier": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+} 
